@@ -20,7 +20,7 @@ module.exports = {
   plugins: [
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'src/models', to: 'models' },
+        // { from: 'src/models', to: 'models' },
         { from: 'src/index.html', to: 'index.html' },
       ],
     }),
