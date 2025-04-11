@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "http-server dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "build": "npx webpack",
+  "start": "http-server dist",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
